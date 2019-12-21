@@ -1,1 +1,114 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+.mv-12 {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.mv-24 {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.mv-48 {
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+.mh-12 {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.mh-24 {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.mh-48 {
+  margin-left: 48px;
+  margin-right: 48px;
+}
+
+.fs-10 {
+  font-size: 10px;
+}
+
+.fs-11 {
+  font-size: 11px;
+}
+
+.fs-12 {
+  font-size: 12px;
+}
+
+.fs-13 {
+  font-size: 13px;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.fs-15 {
+  font-size: 15px;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
+.fs-17 {
+  font-size: 17px;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+.lpad4 {
+  padding-left: 4;
+}
+
+.lpad8 {
+  padding-left: 8;
+}
+
+.lpad12 {
+  padding-left: 12;
+}
+
+.lpad16 {
+  padding-left: 16;
+}
+
+.rpad4 {
+  padding-right: 4;
+}
+
+.rpad8 {
+  padding-right: 8;
+}
+
+.rpad12 {
+  padding-right: 12;
+}
+
+.rpad16 {
+  padding-right: 16;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+
+.white-label {
+  color: #fff;
+}

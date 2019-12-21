@@ -1,0 +1,15 @@
+<StackLayout class="modal" [formGroup]="reportForm" orientation="vertical">
+  <StackLayout padding="8" orientation="vertical">
+    <Label [text]="'chooseReportDateType' | translate"></Label>
+    <hr>
+  
+    <CheckBox #weekCb (tap)="selectType('W',weekCb.checked)" fillColor="#19323C" boxType="circle"
+      text="{{'weekly' | translate}}" [checked]="reportType === 'week'"></CheckBox>
+    <CheckBox #monthCb (tap)="selectType('M',monthCb.checked)" fillColor="#19323C" boxType="circle"
+     text="{{ 'monthly' | translate}}" [checked]="reportType === 'month'"></CheckBox>
+    <CheckBox #yearCb (tap)="selectType('Y',yearCb.checked)" fillColor="#19323C" boxType="circle" 
+     text="{{ 'yearly' | translate}}" [checked]="reportType === 'year'"></CheckBox>
+  </StackLayout>
+  
+
+</StackLayout>
